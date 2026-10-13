@@ -1,1 +1,1 @@
-# Ora-by-Divi
+# Ora by Divi
