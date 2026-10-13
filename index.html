@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ora By Divi</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Bai+Jamjuree:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;500;600&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div id="sideNav">
+        <nav>
+            <ul>
+               <li><a href="#home">Home</a></li>
+               <li><a href="#about">About</a></li>
+               <li><a href="#catalog">Catalog</a></li>
+               <li><a href="#reviews">Reviews</a></li>
+               <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
+    </div>
+    
+    <div id="menuBtn">
+      <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791840840/menu_oyn2ih.png" id="menu">
+    </div>
+
+    <button id="cartBtn" type="button" aria-label="Open shopping cart">
+    🛒
+    <span id="cartCount">0</span>
+</button>
+
+
+  <!---Home--->
+
+
+    <section id="home">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791554147/file_00000000321c81f496961751741c5812_cckvxz.png">
+        <section class="welcome">
+            <h2>WELCOME</h2>
+            <h1><b>Jewelry for every occasion</b></h1>
+            <p>From dainty everyday necklaces to sparkling Owambe set and statement wristwatches. Ora by Divi is where you find the piece that completes your look.</p>
+        </section>
+    </section>
+
+ <!--About-->
+
+    <section id="about">
+        <hr style="border: 3px solid #D9B885;">
+        <h2>ADOUT US</h2>
+        <h1><b>Jewelry made to be remembered</b></h1><hr style="border: 3px solid #D9B885; width: 130px; margin-left: 50px; margin-top: 20px; margin-bottom: 50px;" >
+        <p>Ora by Divi began with a simple belief: beautiful jewelry should make every moment feel special, from an ordinary Tuesday to the biggest celebration of the year.</p>
+        <p>We choose each peice with care, from dainty everyday necklaces and personalised name chains to sparkling Owambe sets and statement wristwatches, so you- can find something that feels like you.</p>
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791552326/IMG-20261009-WA0018_uveaiq.jpg">
+        <p>Every order is checked before it leaves us and packed ready to gift. whether you are treating yourself or surprising someone you love, we are here to help you choose with confidence.</p>
+        <h3>Care Guide</h3>
+        <p> A little care keeps your pieces shining for longer.</p>
+
+    </section>
+
+
+        <section class="care">
+            <div class="care-card">
+            <h3>Gold-plated maintenance</h3>
+            <p>Keep your jewelry dry  and take it off before swimming, bathing or working out. Put it on after perfume, lotion and hair products. When you take it off, wipe it gently with a soft , dry cloth. </p>
+            </div>
+            <div class="care-card">
+            <h3>Gold-plated maintenance</h3>
+            <p>Keep your jewelry dry  and take it off before swimming, bathing or working out. Put it on after perfume, lotion and hair products. When you take it off, wipe it gently with a soft , dry cloth. </p>
+            </div>
+        </section>
+
+
+
+<!--Catalog-->
+
+
+        <section id="catalog">
+            <hr style="border: 3px solid #D9B885;">
+            <h2> CATALOG</h2>
+            <h1><b>Our Collection</b></h1>
+            <!-- FILTER BUTTONS -->
+<div class="filters">
+    <button class="filter-btn active" data-filter="all">All</button>
+
+    <button class="filter-btn" data-filter="owambe">Owambe Sets</button>
+
+    <button class="filter-btn" data-filter="watches">Wristwatches</button>
+
+    <button class="filter-btn" data-filter="everyday">Necklace</button>
+
+    <button class="filter-btn" data-filter="bracelet">Bracelet</button>
+</div>
+
+<!-- PRODUCTS -->
+<div class="products">
+
+    <div class="product" data-category="owambe">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791748303/owambe_yhxrpc.jpg" alt="Owambe Set">
+        <h3><b>Owambe Set</b></h3>
+        <h4>₦22,000</h4>
+        <p>A four-piece sparkling set with necklace, earrings, bracelet and ring, made for weddings and celebration.</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Owambe Set"
+          data-price="22000">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="watches">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791748305/wristwatch_vazvyy.jpg" alt="Wristwatch">
+        <h3><b>Classic Wristwatch</b></h3>
+        <h4>₦35,000</h4>
+        <p>Green-dail quartz wristwatch with a steel strap and date display.</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Classic Wristwatch"
+          data-price="35000">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="everyday">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791552326/IMG-20261009-WA0022_ly4t5c.jpg" alt="Everyday Necklace">
+        <h3><b>Florqal Dainty Necklace</b></h3>
+        <h4>₦3,200</h4>
+        <p>Fine gold chain dotted with tiny black beaded flowers.</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Florqal Dainty Necklace"
+          data-price="3200">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="bracelet">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791748300/braiclet_fegxrp.jpg">
+        <h3><b>Clover Charm Bracelet 1</b></h3>
+        <h4>₦2,500</h4>
+        <p>Elegant silver-tone bracelet featuring delicate white clover charms. Perfect for everyday wear or special occasions</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Clover Charm Bracelet 1"
+          data-price="2500">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="bracelet">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791748300/b1_oo3fxx.jpg" >
+        <h3><b>Clover Charm Bracelet 2</b></h3>
+        <h4>₦2,500</h4>
+        <p>Elegant silver-tone bracelet featuring delicate green clover charms. Perfect for everyday wear or special occasions</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Clover Charm Bracelet 2"
+          data-price="2500">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="everyday">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791748302/necklace_impcen.jpg">
+        <h3><b>Dainty Necklace</b></h3>
+        <h4>₦3,000</h4>
+        <p>Beautiful gold-tone necklace with floral accents and a sparkling pendant. The prefect touch of elegance for any outfit.</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Dainty Necklace"
+          data-price="3000">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="watches">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791749343/IMG-20261011-WA0182_b0kazf.jpg">
+        <h3><b>Bubble Watch</b></h3>
+        <h4>₦25,000</h4>
+        <p>A sophisticated gold-tone watch that combines everyday timekeeping with elegant jewellery styling.</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Bubble Watch"
+          data-price="25000">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="watches">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791749334/IMG-20261011-WA0189_mzv9xj.jpg" >
+        <h3><b>Valenzo Watch</b></h3>
+        <h4>₦13,500</h4>
+        <p>A modern grey metal-link wristwatch with a minimalist design for a clean, sophisticated look.</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Valenzo Watch"
+          data-price="13500">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="watches">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791749337/IMG-20261011-WA0185_bnezll.jpg">
+        <h3><b>Calvin Klein Watch</b></h3>
+        <h4>₦4,500</h4>
+        <p>Trendy silicone wristwatches available in vibrant colours for a modern, casual look.</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Calvin Klein Watch"
+          data-price="4500">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="everyday">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791749336/IMG-20261011-WA0183_yoejbz.jpg" >
+        <h3><b>Tear Drop Set 1</b></h3>
+        <h4>₦4,500</h4>
+        <p>A beautiful gold-tone teardrop jewellery set designed for a polished and sophisticated appearance.</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Tear Drop Set 1"
+          data-price="4500">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="everyday">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791749328/IMG-20261011-WA0186_ainnrf.jpg" >
+        <h3><b>Love Set</b></h3>
+        <h4>₦4,500</h4>
+        <p>A charming gold-tone heart jewellery set perfect for romantic occasions and everyday elegance.</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Love Set"
+          data-price="4500">
+            Add to Cart
+        </button>
+    </div>
+
+    <div class="product" data-category="everyday">
+        <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791749331/IMG-20261011-WA0187_g46kt4.jpg" >
+        <h3><b>Tear Drop Set 2</b></h3>
+        <h4>₦4,500</h4>
+        <p>A beautiful gold-tone teardrop jewellery set designed for a polished and sophisticated appearance.</p>
+        <button
+          class="add-to-cart"
+          type="button"
+          data-name="Tear Drop Set 2"
+          data-price="4500">
+            Add to Cart
+        </button>
+    </div>
+
+
+</div>
+     </section>
+
+
+
+    <!--Reviews-->
+
+
+    <section id="reviews">
+        <hr style="border: 3px solid #D9B885;">
+        <h2>REVIEWS</h2>
+       <section class="reviews">  
+         <h1><b>Loved by our Customers</b></h1>
+         <hr style="border: 3px solid #D9B885; width: 130px; margin-left: 50px; margin-top: 20px; margin-bottom: 50px;" >
+         <div class="divider"></div>
+        </section>
+     <p class="description">Kind words from the people who found their perfect piece with us.</p>
+
+        <div class="review-box">
+            <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791748305/wristwatch_vazvyy.jpg" height="200" width="240">
+            <h3>Joel M.</h3>
+            <p class="date"> Ordered 2 October, 2026</p>
+            <p class="stars">★★★★</p>
+            <p class="review-text">The Poedagar watch is even better in person. the green dial is stunning and  it came boxed like a gift. delivery was quick and Divi kept me updated the <br> whole way.</p>                       
+        </div>
+
+        <div class="review-box">
+            <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791748303/owambe_yhxrpc.jpg" height="220" width="240">
+            <h3>Precious E.</h3>
+            <p class="date"> Ordered 28 September, 2026</p>
+            <p class="stars">★★★★★</p>
+            <p class="review-text">I Ordered the whole owambe set for my sister's wedding and got complimented all night. It sparkles beautifully and the finishes is flawless.</p>                       
+        </div>
+
+        <div class="review-box">
+            <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791748302/necklace_impcen.jpg" height="220" width="240">
+            <h3>Tolu B.</h3>
+            <p class="date"> Ordered 19 September, 2026</p>
+            <p class="stars">★★★★★</p>
+            <p class="review-text">I got my necklace in gold and i have not taken ot off. the engraving is  so neat. and Divi was patient with every</p>                       
+        </div>
+
+        <div class="review-box">
+            <img src="https://res.cloudinary.com/yj1dg1eb/image/upload/v1791552326/IMG-20261009-WA0022_ly4t5c.jpg" height="220" width="240">
+            <h3>David S.</h3>
+            <p class="date"> Ordered 11 September, 2026</p>
+            <p class="stars">★★★★★</p>
+            <p class="review-text">The everyday necklace is delicate and goes with everything. Lovely quality for the price,and the packaging made it.</p>
+        </div>
+    </section>
+
+
+
+    
+    <!-- Order & Contact Section -->
+
+  <section id="contacts">
+
+   
+    <div class="intro-section">
+
+        <h2 class="eyebrow">ORDER & CONTACT</h2>
+
+        <h1><b>Let's find your<br>piece</b></h1>
+
+        <hr style="border: 3px solid #D9B885; width: 130px; margin-left: 50px; margin-top: 20px; margin-bottom: 50px;" >
+
+        <p>
+            Ready to order, or have a question? Message us on
+            WhatsApp with the piece you love and we will take
+            care of the rest.
+        </p>
+
+    </div>
+
+
+    <!-- Contact Buttons -->
+
+    <div class="contact-actions">
+
+        <a href="https://wa.me/2349132378041"
+           class="btn btn-primary"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            Order on WhatsApp
+
+        </a>
+
+        <a href="tel:09132378041"
+           class="btn btn-secondary">
+
+            Call 09132378041
+
+        </a>
+
+        <a href="https://www.tiktok.com/@divi_611"
+           class="btn btn-secondary"
+           target="_blank"
+           rel="noopener noreferrer">
+
+            Tiktok [@Ora by Divi]
+
+        </a>
+
+    </div>
+
+
+    <!-- Delivery Information -->
+
+    <div class="info-box">
+
+        <h2>Delivery & pickup</h2>
+
+        <p>
+            We deliver to your doorstep. Fees and timing depend
+            on your location, so send us your address on WhatsApp
+            and we will confirm before you pay.
+        </p>
+
+        <p>
+            Prefer to collect? Pickup is available by arrangement.
+            Message us to agree a time that suits you.
+        </p>
+
+    </div>
+
+
+    <!-- Frequently Asked Questions -->
+
+    <div class="faq-section">
+
+        <h2>Questions</h2>
+
+
+        <details class="faq-item" open>
+
+            <summary>How do I place an order?</summary>
+
+            <p>
+                Choose a piece from the catalog, tap Enquire on
+                WhatsApp and send us your details. We will confirm
+                availability and payment, then prepare your order
+                with care.
+            </p>
+
+        </details>
+
+
+        <details class="faq-item">
+
+            <summary>How long does delivery take?</summary>
+
+            <p>
+                Delivery typically takes 3–5 business days,
+                depending on your location.
+            </p>
+
+        </details>
+
+
+        <details class="faq-item">
+
+            <summary>Can I customise a necklace?</summary>
+
+            <p>
+                Yes, customisation options are available upon
+                request via WhatsApp.
+            </p>
+
+        </details>
+
+
+        <details class="faq-item">
+
+            <summary>What if there is a problem with my order?</summary>
+
+            <p>
+                Please contact us immediately on WhatsApp,
+                and we will work with you to resolve the issue.
+            </p>
+
+        </details>
+
+    </div>
+
+  </section>
+
+
+  <!-- SHOPPING CART PANEL -->
+<div id="cartOverlay"></div>
+
+<aside id="cartPanel" aria-label="Shopping cart">
+
+    <!-- CART HEADER -->
+    <div class="cart-header">
+
+        <h2>Your Shopping Cart</h2>
+
+        <button id="closeCart" type="button" aria-label="Close cart">
+            &times;
+        </button>
+
+    </div>
+
+    <!-- CART ITEMS -->
+    <div id="cartItems">
+
+        <p class="empty-cart">
+            Your cart is empty.
+        </p>
+
+    </div>
+
+    <!-- CART TOTAL -->
+    <div class="cart-footer">
+
+        <div class="cart-total">
+            <span>Total:</span>
+            <strong id="cartTotal">₦0</strong>
+        </div>
+
+        <!-- CHECKOUT BUTTON -->
+        <button id="checkoutBtn" type="button">
+            Checkout on WhatsApp
+        </button>
+
+        <button id="clearCart" type="button">
+            Clear Cart
+        </button>
+
+    </div>
+
+</aside>
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+       <script>
+    var menuBtn = document.getElementById("menuBtn")
+    var sideNav = document.getElementById("sideNav")
+    var menu = document.getElementById("menu")
+
+ sideNav.style.right ="-250px";
+
+    menuBtn.onclick = function(){
+        if(sideNav.style.right =="-250px"){
+            sideNav.style.right ="0"; 
+            menu.src = "https://res.cloudinary.com/yj1dg1eb/image/upload/v1791840843/close_ysw38c.png";
+        }
+        else{
+            sideNav.style.right ="-250px"; 
+            menu.src = "https://res.cloudinary.com/yj1dg1eb/image/upload/v1791840840/menu_oyn2ih.png";
+        }
+    }
+    const filterButtons = document.querySelectorAll(".filter-btn");
+const products = document.querySelectorAll(".product");
+
+filterButtons.forEach(button => {
+
+    button.addEventListener("click", () => {
+
+       
+        const selectedFilter = button.dataset.filter;
+
+  
+        filterButtons.forEach(btn => {
+            btn.classList.remove("active");
+        });
+
+        
+        button.classList.add("active");
+
+
+        products.forEach(product => {
+
+            const productCategory = product.dataset.category;
+
+            if (
+                selectedFilter === "all" ||
+                selectedFilter === productCategory
+            ) {
+                product.classList.remove("hide");
+            } else {
+                product.classList.add("hide");
+            }
+
+        });
+
+    });
+
+});
+
+
+
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+
+    const cartButton = document.getElementById("cartBtn");
+    const cartCount = document.getElementById("cartCount");
+
+    const cartPanel = document.getElementById("cartPanel");
+    const cartOverlay = document.getElementById("cartOverlay");
+
+    const closeCartButton = document.getElementById("closeCart");
+
+    const cartItemsContainer = document.getElementById("cartItems");
+    const cartTotalElement = document.getElementById("cartTotal");
+
+    const checkoutButton = document.getElementById("checkoutBtn");
+    const clearCartButton = document.getElementById("clearCart");
+
+    
+    const whatsappNumber = "2349132378041";
+
+  
+    let cart = [];
+
+    try {
+        const savedCart = JSON.parse(
+            localStorage.getItem("oraCart") || "[]"
+        );
+
+        if (Array.isArray(savedCart)) {
+            cart = savedCart.filter(item =>
+                item &&
+                typeof item.name === "string" &&
+                Number.isFinite(Number(item.price)) &&
+                Number(item.price) >= 0 &&
+                Number.isInteger(Number(item.quantity)) &&
+                Number(item.quantity) > 0
+            ).map(item => ({
+                name: item.name,
+                price: Number(item.price),
+                quantity: Number(item.quantity)
+            }));
+        }
+    } catch (error) {
+        cart = [];
+    }
+
+    
+    function saveCart() {
+        try {
+            localStorage.setItem("oraCart", JSON.stringify(cart));
+        } catch (error) {
+            alert("Your browser could not save the cart.");
+        }
+    }
+
+    
+    function formatPrice(amount) {
+        return "₦" + amount.toLocaleString("en-NG");
+    }
+
+    
+    function openCart() {
+        cartPanel.classList.add("open");
+        cartOverlay.classList.add("open");
+
+        document.body.style.overflow = "hidden";
+        closeCartButton.focus();
+    }
+
+   
+    function closeCart() {
+        cartPanel.classList.remove("open");
+        cartOverlay.classList.remove("open");
+
+        document.body.style.overflow = "";
+
+        cartButton.focus();
+    }
+
+    cartButton.addEventListener("click", openCart);
+    closeCartButton.addEventListener("click", closeCart);
+    cartOverlay.addEventListener("click", closeCart);
+
+    
+    document.addEventListener("keydown", function (event) {
+        if (
+            event.key === "Escape" &&
+            cartPanel.classList.contains("open")
+        ) {
+            closeCart();
+        }
+    });
+
+    
+    function renderCart() {
+
+        cartItemsContainer.replaceChildren();
+
+        const totalItems = cart.reduce(
+            (total, item) => total + item.quantity,
+            0
+        );
+
+        const totalPrice = cart.reduce(
+            (total, item) => total + item.price * item.quantity,
+            0
+        );
+
+        cartCount.textContent = totalItems;
+        cartTotalElement.textContent = formatPrice(totalPrice);
+
+        if (cart.length === 0) {
+
+            const emptyMessage = document.createElement("p");
+
+            emptyMessage.className = "empty-cart";
+            emptyMessage.textContent = "Your cart is empty.";
+
+            cartItemsContainer.appendChild(emptyMessage);
+
+            return;
+        }
+
+        cart.forEach(function (item, index) {
+
+            const itemElement = document.createElement("div");
+            itemElement.className = "cart-item";
+
+            const details = document.createElement("div");
+
+            const name = document.createElement("h3");
+            name.textContent = item.name;
+
+            const price = document.createElement("p");
+            price.className = "cart-item-price";
+            price.textContent = formatPrice(item.price * item.quantity);
+
+            const unitPrice = document.createElement("p");
+            unitPrice.textContent = formatPrice(item.price) + " each";
+
+            details.append(name, unitPrice, price);
+
+            const actions = document.createElement("div");
+            actions.className = "cart-item-actions";
+
+          
+            const decreaseButton = document.createElement("button");
+            decreaseButton.type = "button";
+            decreaseButton.textContent = "−";
+            decreaseButton.setAttribute(
+                "aria-label",
+                "Decrease quantity of " + item.name
+            );
+
+            decreaseButton.addEventListener("click", function () {
+
+                if (cart[index].quantity > 1) {
+                    cart[index].quantity--;
+                } else {
+                    cart.splice(index, 1);
+                }
+
+                saveCart();
+                renderCart();
+            });
+
+        
+            const quantity = document.createElement("span");
+            quantity.textContent = item.quantity;
+            quantity.setAttribute("aria-label", "Quantity");
+
+            // Increase quantity.
+            const increaseButton = document.createElement("button");
+            increaseButton.type = "button";
+            increaseButton.textContent = "+";
+            increaseButton.setAttribute(
+                "aria-label",
+                "Increase quantity of " + item.name
+            );
+
+            increaseButton.addEventListener("click", function () {
+                cart[index].quantity++;
+
+                saveCart();
+                renderCart();
+            });
+
+            
+            const removeButton = document.createElement("button");
+            removeButton.type = "button";
+            removeButton.className = "remove-item";
+            removeButton.textContent = "Remove";
+
+            removeButton.addEventListener("click", function () {
+                cart.splice(index, 1);
+
+                saveCart();
+                renderCart();
+            });
+
+            actions.append(
+                decreaseButton,
+                quantity,
+                increaseButton,
+                removeButton
+            );
+
+            itemElement.append(details, actions);
+            cartItemsContainer.appendChild(itemElement);
+        });
+    }
+
+    
+    document.querySelectorAll(".add-to-cart").forEach(function (button) {
+
+        button.addEventListener("click", function () {
+
+            const productName = this.dataset.name;
+            const productPrice = Number(this.dataset.price);
+
+            if (
+                !productName ||
+                !Number.isFinite(productPrice) ||
+                productPrice < 0
+            ) {
+                alert("This product has invalid information.");
+                return;
+            }
+
+            const existingProduct = cart.find(
+                item => item.name === productName
+            );
+
+            if (existingProduct) {
+                existingProduct.quantity++;
+            } else {
+                cart.push({
+                    name: productName,
+                    price: productPrice,
+                    quantity: 1
+                });
+            }
+
+            saveCart();
+            renderCart();
+
+           
+            const originalText = this.textContent;
+
+            this.textContent = "Added to Cart!";
+
+            setTimeout(() => {
+                this.textContent = originalText;
+            }, 1000);
+        });
+    });
+
+   
+    clearCartButton.addEventListener("click", function () {
+
+        if (cart.length === 0) {
+            return;
+        }
+
+        if (confirm("Are you sure you want to clear your cart?")) {
+            cart = [];
+
+            saveCart();
+            renderCart();
+        }
+    });
+
+    
+    checkoutButton.addEventListener("click", function () {
+
+        if (cart.length === 0) {
+            alert("Your cart is empty. Add a product before checkout.");
+            return;
+        }
+
+        let message = "Hello Ora By Divi! I would like to place an order:\n\n";
+
+        cart.forEach(function (item) {
+
+            message +=
+                item.name + "\n" +
+                "Quantity: " + item.quantity + "\n" +
+                "Unit price: " + formatPrice(item.price) + "\n" +
+                "Subtotal: " + formatPrice(item.price * item.quantity) +
+                "\n\n";
+        });
+
+        const total = cart.reduce(
+            (sum, item) => sum + item.price * item.quantity,
+            0
+        );
+
+        message +=
+            "Total: " + formatPrice(total) +
+            "\n\nPlease confirm availability, delivery fee, and payment details. Thank you!";
+
+        const whatsappURL =
+             "https://wa.me/"+ whatsappNumber +
+            "?text=" + encodeURIComponent(message);
+
+        window.open(whatsappURL, "_blank", "noopener,noreferrer");
+    });
+
+    
+    renderCart();
+
+});
+</script>
+
+
+<footer class="copyright">
+    <p>&copy; 2026 Ora By Divi. All Rights Reserved.</p>
+</footer>
+</body>
+</html>
